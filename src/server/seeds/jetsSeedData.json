@@ -1,0 +1,22 @@
+[
+    {
+      "jetsType": "private",
+      "name": "Cessna Citation Mustang",
+      "description": "a"
+    },
+  {
+    "jetsType": "private",
+      "name": "a Phenom 100",
+      "description": "b"
+    },
+    {
+    "jetsType": "private",
+      "name": "HondaJet",
+      "description": "c"
+    },
+    {
+    "jetsType": "private",
+      "name": "Cessna Citation M2",
+      "description": "d"
+    }
+  ]

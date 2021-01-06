@@ -1,0 +1,82 @@
+<header>
+</header>
+<!-- // This will be the first section -->
+<div>
+    <div class="private-home-image">
+        <img src="/resources/empty-private.jpg" alt="private image one" </div>
+        <div class="..." id="private-home-list-one">
+            <p>
+            <h1> Fly anywhere you need to go, any time of day or night without the hassle of mainstream airlines! </h1>
+            <ul>
+                <p>
+                    &#10003; Complete discretion when using our services. Where you fly and your reasons are none of our
+                    concerns!
+                </p>
+                <p>
+                    &#10003; Customs? What Customs?!
+                </p>
+                <p>
+                    &#10003; Bring guests or fly solo.
+                </p>
+                <p>
+                    &#10003; Need a quick flight ASAP? We've got you handled!
+                </p>
+                <button>Find Out More!</button>
+            </ul>
+            </p>
+        </div>
+
+    </div>
+    <div>
+        <div class="private-home-image">
+            <img src="/resources/plane-night.jpg" alt="private image two" </div>
+            <div class="..." id="private-home-list-one">
+                <h1>Your Flight, Your Way</h1>
+                <p>
+                    Our private jet charter service gives you the freedom to choose your aircraft on your
+                    terms. Enjoy global access, and let our expert team take care of every detail.
+                </p>
+            </div>
+
+        </div>
+        <div>
+            <div class="private-home-image">
+                <img src="/resources/plane-window.jpg" alt="private image three">
+                <div class="..." id="private-home-list-one">
+                    <h2>How It Works</h2>
+                    <div class="col-xs-12 col-sm-4">
+                        <img src="src/resources/number-1.jpg">
+                        <h3>Receive your personalized quote</h3>
+                        <p>Compare pricing and our recommended aircraft options in a custom proposal.</p> 
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <img src="src/resources/number-2.jpg">
+                        <h3>Receive your personalized quote</h3>
+                        <p>Compare pricing and our recommended aircraft options in a custom proposal.</p> 
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <img src="src/resources/number-3.jpg">
+                        <h3>Receive your personalized quote</h3>
+                        <p>Compare pricing and our recommended aircraft options in a custom proposal.</p> 
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div>
+                <h1 class="quote-title">Donald Sutherland</h1>
+
+                <p>"Never in my life, have I experienced such a high quality, professional plane service. It beats even
+                    the finest of first class services.
+                    If you need a quick get-a-away or just a business plane service... look no further than (OUR NAME WE HAVEN'T COME UP WITH)"
+                </p>
+            </div>
+
+
+            <div>
+                <h1>Pick from our selection of private planes; each with their own capabilities!</h1>
+                {{#each privateOptions as |privateOption|}}
+                {{>private-option privateOption}}
+                {{/each}}
+            </div>
