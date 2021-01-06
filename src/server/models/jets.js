@@ -16,6 +16,12 @@ Jets.init(
     description: {
       type: DataTypes.STRING,
     },
+    crew: {
+      type: DataTypes.INTEGER,
+    },
+    price: {
+      type: DataTypes.INTEGER,
+    },
     user_id: {
       type: DataTypes.INTEGER,
       references: {
