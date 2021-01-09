@@ -1,4 +1,4 @@
-const {jets} = require("../models")
+const jets= require("../models/jets")
 
 const jetsData = [
     {
